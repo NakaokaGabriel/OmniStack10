@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { Container } from './components/Container/styles';
-
 import GlobalStyle from './styles/global';
+
+import { Container } from './components/Container/styles';
 
 import Register from './components/Register';
 import Devs from './components/Devs';
