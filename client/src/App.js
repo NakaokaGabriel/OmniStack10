@@ -1,9 +1,21 @@
 import React from 'react';
 
+import { Container } from './components/Container/styles';
+
+import GlobalStyle from './styles/global';
+
+import Register from './components/Register';
+import Devs from './components/Devs';
+
 function App() {
   return (
-    <div className="App">
-    </div>
+    <>
+      <Container>
+        <Register />
+        <Devs />
+      </Container>
+      <GlobalStyle />
+    </>
   );
 }
 
