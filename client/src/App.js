@@ -11,7 +11,6 @@ function App() {
   return (
     <>
       <Container>
-        <Register />
         <Devs />
       </Container>
       <GlobalStyle />
